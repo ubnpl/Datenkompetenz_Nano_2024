@@ -5,7 +5,7 @@
 # 
 # Beispiel: Simulation der Brownschen Bewegung in einer, zwei und drei Dimensionen. Die Zeitachse ist als weitere Dimension auch immer Teil der Visualisierung.
 # 
-# Die benötigten Module Numpy und MatPlotLib sind in den meisten Standardinstallation schon mit dabei; das Modul muss Scipy zusätzlich installiert werden.Installieren von Scipy mit Anaconda (im Anaconda Prompt (Windows) oder Terminal (Linux oder MacOS):
+# Die benötigten Module Numpy und MatPlotLib sind in den meisten Standardinstallation schon mit dabei; das Modul muss Scipy (https://scipy.org/) zusätzlich installiert werden.Installieren von Scipy mit Anaconda (im Anaconda Prompt (Windows) oder Terminal (Linux oder MacOS):
 # 
 #     conda install scipy
 # 
