@@ -10,7 +10,7 @@
 # Datenquelle: Bundesamt für Energie
 # Webseite: https://opendata.swiss/dataset/energiedashboard-ch-stromproduktion-swissgrid
 # 
-# Zeitpunkt der Abfrage: 11.09.2023
+# Zeitpunkt der Abfrage: 06.08.2024
 # 
 # Format: CSV (.csv)
 
@@ -36,7 +36,7 @@ import pandas as pd
 
 # #### Datenfile lesen und anzeigen
 # 
-# Pandas stellt Reader für verschiedene Formate zur Verfügung. Der entsprechende Reader read_csv() wird ausgewählt und bekommt als parameter den Filenamen. Die Daten werden dann im Dataframe df gespeichert.
+# Das Datenfile muss zuerst von der angegebenen Datenquelle heruntergeladen und im Arbeitsordner gespeichert werden. Pandas stellt Reader für verschiedene Formate zur Verfügung. Der entsprechende Reader read_csv() wird ausgewählt und bekommt als parameter den Filenamen. Die Daten werden dann im Dataframe df gespeichert.
 
 # In[2]:
 
@@ -241,7 +241,7 @@ plt.show()
 f, axs = plt.subplots(6,1, figsize=(15, 20)) # Definieren der Subplots
 
 lx1 = '2016-01-01' # unteres Limit x-Achse
-lx2 = '2023-10-01' # oberes Limit y-Achse
+lx2 = '2024-08-01' # oberes Limit x-Achse
 ly1 = -10.0   # unteres Limit y-Achse
 ly2 = 160.0 # oberes Limit y-Achse
 
