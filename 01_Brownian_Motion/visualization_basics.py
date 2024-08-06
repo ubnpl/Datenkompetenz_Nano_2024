@@ -15,6 +15,11 @@
 # #### Module für Teil 1 importieren
 # 
 # Für Teil 1 werden NumPy und MatPlotLib benötigt.
+# 
+# NumPy: https://numpy.org/
+# 
+# MatPlotLib: https://matplotlib.org/
+# 
 
 # In[1]:
 
@@ -154,6 +159,12 @@ plt.ylabel('Position [arbitrary units]') # Beschriftung der y-Achse
 plt.plot(traj, 'o:b') # Funktion plotten: Trajektoriendaten gegen Zeit
 plt.savefig('Brownsche_Bewegung_1D.png')
 plt.show
+
+
+# In[ ]:
+
+
+
 
 
 # In[ ]:
