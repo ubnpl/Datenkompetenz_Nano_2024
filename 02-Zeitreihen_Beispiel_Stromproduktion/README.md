@@ -9,6 +9,7 @@ Bsp3_Scatterplot_Regression_Korrelation: Korrelation der Zeitreihen im Scatterpl
 Benötigte Python Module: Numpy, MatPlotLib, Pandas
 
 Benötigte Daten Stromproduktion Schweiz: 
+
   https://opendata.swiss/de/dataset/schweizerische-elektrizitatsstatistik-schweizerische-elektrizitatsbilanz-monatswerte
   https://opendata.swiss/dataset/energiedashboard-ch-stromproduktion-swissgrid
 
