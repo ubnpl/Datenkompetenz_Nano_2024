@@ -11,6 +11,7 @@ Benötigte Python Module: Numpy, MatPlotLib, Pandas
 Benötigte Daten Stromproduktion Schweiz: 
 
   https://opendata.swiss/de/dataset/schweizerische-elektrizitatsstatistik-schweizerische-elektrizitatsbilanz-monatswerte
+  
   https://opendata.swiss/dataset/energiedashboard-ch-stromproduktion-swissgrid
 
 
