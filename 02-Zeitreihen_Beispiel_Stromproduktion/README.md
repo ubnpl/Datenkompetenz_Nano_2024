@@ -1,11 +1,15 @@
 # Visualisierung der Stromproduktion in der Schweiz und Vergleich Energieträger
 
-Bsp1_Visualisierung_Stromproduktion: Zeitreihen der Stromproduktion verschiedener Energieträger visualisieren
+Bsp1_Visualisierung_Elektrizitaetsbilanz: Einfache Visualisierung einiger Zeitreihen der Elektrizitaetsbilanz
 
-Bsp2_Scatterplot_Regression_Korrelation: Korrelation der Zeitreihen im Scatterplot darstellen und berechnen
+Bsp2_Visualisierung_Stromproduktion: Zeitreihen der Stromproduktion verschiedener Energieträger visualisieren
+
+Bsp3_Scatterplot_Regression_Korrelation: Korrelation der Zeitreihen im Scatterplot darstellen und berechnen
 
 Benötigte Python Module: Numpy, MatPlotLib, Pandas
 
-Benötigte Daten: Stromproduktion Schweiz von https://opendata.swiss/dataset/energiedashboard-ch-stromproduktion-swissgrid
+Benötigte Daten: 
+  https://opendata.swiss/de/dataset/schweizerische-elektrizitatsstatistik-schweizerische-elektrizitatsbilanz-monatswerte
+  Stromproduktion Schweiz von https://opendata.swiss/dataset/energiedashboard-ch-stromproduktion-swissgrid
 
 

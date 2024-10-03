@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # Beispiel Stromproduktion 2: Scatterplot, Regression, Korrelation
+# # Beispiel Stromproduktion 3: Scatterplot, Regression, Korrelation
 # 
 # ### Datenvisualisierung mit Python/Matplotlib
 
@@ -10,7 +10,7 @@
 # Datenquelle: Bundesamt für Energie
 # Webseite: https://opendata.swiss/dataset/energiedashboard-ch-stromproduktion-swissgrid
 # 
-# Zeitpunkt der Abrfrage: 06.08.2024
+# Zeitpunkt der Abrfrage: 03.10.2024
 # 
 # Format: CSV (.csv)
 
@@ -35,8 +35,6 @@ import pandas as pd
 
 
 # #### Erste Seite des Excel-Files lesen und anzeigen
-# 
-# Das File muss dazu von der Datenquelle (siehe oben) heruntergeladen und im aktuellen Arbeitsordner gespeichert werden.
 
 # In[2]:
 
@@ -176,7 +174,7 @@ plt.show()
 # In[10]:
 
 
-# Matplotlib subplots
+## Matplotlib subplots
 f, axs = plt.subplots(1,1, figsize=(12, 8))
 
 lx1 = '2015-01-01' # unteres Limit x-Achse
@@ -216,7 +214,7 @@ df_fluss_red = df_fluss['Produktion_GWh'][-(3500-len(df_fluss)):]
 # In[12]:
 
 
-plt.figure().set_figheight(10)
+plt.figure().set_figheight(5)
 plt.figure().set_figwidth(10)
 plt.scatter(df_fluss_red, df_photo_red, s=10, alpha=0.6, edgecolors="k") # Scatterplot Flusskrft gegen Photovoltaik
 plt.xlabel('Flusskraft Stromproduktion [GWh]') # Beschriftung x-Achse
@@ -250,7 +248,7 @@ print('b = ', b, '\ta =', a)
 # In[15]:
 
 
-plt.figure().set_figheight(10) # Breite
+plt.figure().set_figheight(5) # Breite
 plt.figure().set_figwidth(10) # Höhe
 plt.scatter(df_fluss_red, df_photo_red, s=10, alpha=0.6, edgecolors="k") # Scatterplot Flusskrft gegen Photovoltaik
 
@@ -287,10 +285,4 @@ r = np.corrcoef(df_fluss_red, df_photo_red)
 
 # Nicht-diagonale Elemente der Korrelationsmatrix ausgeben
 print("Korrelationskoeffizient = ", r[0,1]) 
-
-
-# In[ ]:
-
-
-
 

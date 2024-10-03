@@ -1,16 +1,18 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # Beispiel Stromproduktion 1: Visualisierung Stromproduktion
+# # Beispiel 2: Visualisierung Stromproduktion verschiedener Energieträgern
 # 
 # ### Datenvisualisierung mit Python/Matplotlib
+# 
+# Die Daten in diesem Beispiel müssen zuerst in verschiedene Zeitreihen nach Stromerzeugungsmethode gruppiert werden.
 
 # ### Datenbeispiel: Stromproduktion in der Schweiz
 # 
 # Datenquelle: Bundesamt für Energie
 # Webseite: https://opendata.swiss/dataset/energiedashboard-ch-stromproduktion-swissgrid
 # 
-# Zeitpunkt der Abfrage: 06.08.2024
+# Zeitpunkt der Abfrage: 03.10.2024
 # 
 # Format: CSV (.csv)
 
@@ -36,7 +38,7 @@ import pandas as pd
 
 # #### Datenfile lesen und anzeigen
 # 
-# Das Datenfile muss zuerst von der angegebenen Datenquelle heruntergeladen und im Arbeitsordner gespeichert werden. Pandas stellt Reader für verschiedene Formate zur Verfügung. Der entsprechende Reader read_csv() wird ausgewählt und bekommt als parameter den Filenamen. Die Daten werden dann im Dataframe df gespeichert.
+# Pandas stellt Reader für verschiedene Formate zur Verfügung. Der entsprechende Reader read_csv() wird ausgewählt und bekommt als parameter den Filenamen. Die Daten werden dann im Dataframe df gespeichert.
 
 # In[2]:
 
